@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)https://mewo2.com/notes/terrain/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="./resources/style.css">
+        <link href="./resources/css" rel="stylesheet" type="text/css">
+        <title>
+        Generating fantasy maps
+        </title>
+        </head>
+    <body>
+        <div id="content">
+</div>
+<div class="note">
+    <script async="" src="./resources/analytics.js"></script>
+    <script src="./resources/d3.v4.js"></script>
+    <script src="./resources/priority-queue.js"></script>
+
+<style>
+    path, line {
+        fill: none;
+        stroke: black;
+        stroke-linecap: round;
+    }
+
+    .field {
+        stroke: none;
+        fill-opacity: 1.0;
+    }
+
+    .slope {
+        stroke-width: 1;
+    }
+
+    .river {
+        stroke-width: 2;
+    }
+
+    .coast {
+        stroke-width: 4;
+    }
+
+    .border {
+        stroke-width: 5;
+        stroke-dasharray: 4,4;
+        stroke-linecap: butt;
+    }
+
+    text {
+        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+        color: black;
+        stroke: white;
+        stroke-width: 5;
+        stroke-linejoin: round;
+        paint-order: stroke;
+    }
+
+    text.region {
+        stroke-width:10;
+        font-variant: small-caps;
+    }
+
+    svg {
+        float: right;
+        background-color: white;
+    }
+</style>
+
+<script src="./resources/language.js"></script>
+
+<script src="./resources/terrain.js"></script>
+
+
+<div class="example" id="mesh"></div>
+<div class="example" id="prim"></div>
+<div class="example" id="erode"></div>
+<div class="example" id="phys"></div>
+<div class="example" id="city"></div>
+<div class="example" id="final"></div>
+
+<script src="./resources/terraincontrols.js"></script>
+</div>
+</div>
+        <div id="footer">
+            
+<div class="splash">
+    <a href="https://mewo2.com/">Home</a> - <a href="https://twitter.com/mewo2">Contact me on Twitter</a> - <a href="https://mewo2.com/consulting/">Currently available for consulting</a>
+</div>
+
+        </div>
+        <script async="" src="./resources/widgets.js" charset="utf-8"></script>
+
